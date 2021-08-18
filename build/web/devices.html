@@ -1,0 +1,122 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recording</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+                                            <form action="add" method="post">
+							
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Tin Number</span>
+										<input class="form-control" type="text" name="tin" placeholder="tin" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Name of Product</span>
+                                                                                <input class="form-control" type="text" name="nameofproduct" placeholder="Name of Product" required>
+									</div>
+                                                                    
+								</div>
+                                                            <div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Amount</span>
+										<input class="form-control" type="text" name="amount" placeholder="Amount" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label"> Quantity</span>
+                                                                                <input class="form-control" type="text" name="quantity" placeholder="Quantity" required>
+									</div>
+                                                                    
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Date</span>
+										<input class="form-control" type="date" name="date" required>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Expired</span>
+										<input class="form-control" type="date" name="expired" required>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Color</span>
+										<select class="form-control" name="color" required>
+											<option>Blue</option>
+											<option>Black</option>
+											<option>Green</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+                                                                    
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Quality</span>
+										<select class="form-control" name="quality" required>
+											<option>High Quality</option>
+											<option>Low Quality</option>
+											<option>Poor Quality</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Supplier</span>
+										<select class="form-control" name="supplier" required>
+											<option>HABINEZA Cedrick</option>
+											<option>KWIZERA Patrick</option>
+                                                                                        <option>TUYISHIME Fulgence</option>
+											<option>RUDASINGWA Mike</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								
+                                                            <div class="col-md-3">
+									<div class="form-btn">
+										<button class="submit-btn">Record</button>
+									</div>
+                                                                    
+								</div>
+                                                            <div class="col-md-3">
+									<div class="form-btn">
+                                                                            <button class="submit-btn"><a class="submit-btn" href="index.html">Back</a></button>
+									</div>
+                                                                    
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+</body>
+
+</html>
